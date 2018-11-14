@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>page</title>
+	</head>
+	<body>
+		<table>
+			<?php
+				for ($i=1; $i <= 5; $i++)
+				{
+					print("<tr>");
+					print("<td>$i:</td><td><a href='page$i.php'>Page $i</a></td>");
+					print("</tr>");
+				}
+			?>
+		</table>
+	</body>
+</html>
